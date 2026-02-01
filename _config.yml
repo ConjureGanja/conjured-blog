@@ -1,0 +1,29 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+title: Conjured Blog
+email: your-email@example.com
+description: >-
+  A minimal Jekyll blog about gaming, gaming automation, AI systems, 
+  and whatever I'm building next.
+baseurl: ""
+url: "https://ConjureGanja.github.io"
+github_username: ConjureGanja
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
