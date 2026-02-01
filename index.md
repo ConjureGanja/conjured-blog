@@ -1,6 +1,8 @@
 ---
 layout: home
-title: "Home"
+title: Home
 ---
 
-Welcome to the blog. New posts appear below.
+Welcome to my blog! I write about gaming, gaming automation, AI systems, and whatever I'm building next.
+
+Check out my latest posts below or learn more [about me](/about).

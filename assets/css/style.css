@@ -1,8 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for Conjured Blog */
+
+/* Enhanced typography */
 body {
-  font-family: system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
 }
 
-.post-title {
-  font-weight: 600;
+/* Header customization */
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Link styling */
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Post list styling */
+.post-list > li {
+  margin-bottom: 2em;
+}
+
+.post-meta {
+  font-size: 0.875rem;
+  color: #828282;
+}
+
+/* Code block styling */
+pre, code {
+  border-radius: 3px;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
 }
