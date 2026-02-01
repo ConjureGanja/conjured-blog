@@ -14,6 +14,16 @@ github_username: ConjureGanja
 
 # Build settings
 theme: minima
+title: "Alex's Blog"
+description: "Thoughts on automation, AI systems, and building cool things."
+baseurl: ""
+url: "https://ConjureGanja.github.io"
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
