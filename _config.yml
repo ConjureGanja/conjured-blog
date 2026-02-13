@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that.
 
-title: Conjured Blog
+title: "Alex's Blog"
 email: 
 description: >-
   A minimal Jekyll blog about gaming, gaming automation, AI systems, 
@@ -13,12 +13,6 @@ url: "https://ConjureGanja.github.io"
 github_username: ConjureGanja
 
 # Build settings
-theme: minima
-title: "Alex's Blog"
-description: "Thoughts on automation, AI systems, and building cool things."
-baseurl: ""
-url: "https://ConjureGanja.github.io"
-
 theme: minima
 
 markdown: kramdown

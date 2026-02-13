@@ -178,6 +178,6 @@ Steven Sharif has not made any public statements beyond his resignation announce
 **Share your thoughts:** Were you a backer or player of Ashes of Creation? What's your take on what happened? Drop a comment below.
 
 **Related Reading:**
-- [The History of Failed MMO Promises](/gaming/failed-mmo-history)
-- [Understanding WARN Act Notices in Gaming](/industry/warn-act-gaming)
-- [The State of MMOs in 2026](/gaming/mmo-landscape-2026)
+- [The History of Failed MMO Promises]({{ "/gaming/failed-mmo-history" | relative_url }})
+- [Understanding WARN Act Notices in Gaming]({{ "/industry/warn-act-gaming" | relative_url }})
+- [The State of MMOs in 2026]({{ "/gaming/mmo-landscape-2026" | relative_url }})
