@@ -1,26 +1,13 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-
-title: Conjured Blog
-email: your-email@example.com
-description: >-
-  A minimal Jekyll blog about gaming, gaming automation, AI systems, 
-  and whatever I'm building next.
-baseurl: ""
-url: "https://ConjureGanja.github.io"
-github_username: ConjureGanja
-
-# Build settings
-theme: minima
 title: "Alex's Blog"
+email: your-email@example.com
 description: "Thoughts on automation, AI systems, and building cool things."
 baseurl: ""
 url: "https://ConjureGanja.github.io"
+github_username: ConjureGanja
+author: "Alex"
 
+# Build settings
 theme: minima
-
 markdown: kramdown
 highlighter: rouge
 

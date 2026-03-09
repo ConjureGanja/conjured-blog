@@ -1,0 +1,40 @@
+<header class="site-header" role="banner">
+  <div class="site-wrapper">
+    <div class="site-header-inner">
+
+      <!-- Decorative golden glow bar -->
+      <div class="site-header-glow" aria-hidden="true"></div>
+
+      <!-- Site title -->
+      <div class="site-title-block">
+        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+        <p class="site-tagline">{{ site.description }}</p>
+      </div>
+
+      <!-- Navigation tabs styled like OSRS panel tabs -->
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}"
+           class="nav-tab{% if page.url == '/' %} active{% endif %}"
+           aria-current="{% if page.url == '/' %}page{% endif %}">
+          ⚔ Home
+        </a>
+        <a href="{{ '/about/' | relative_url }}"
+           class="nav-tab{% if page.url == '/about/' %} active{% endif %}"
+           aria-current="{% if page.url == '/about/' %}page{% endif %}">
+          📜 About
+        </a>
+        {%- if site.github_username -%}
+        <a href="https://github.com/{{ site.github_username }}"
+           class="nav-tab"
+           target="_blank" rel="noopener">
+          ⚗ GitHub
+        </a>
+        {%- endif -%}
+      </nav>
+
+      <!-- Golden divider beneath tabs -->
+      <div class="nav-divider" aria-hidden="true"></div>
+
+    </div>
+  </div>
+</header>
