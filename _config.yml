@@ -1,8 +1,8 @@
 title: "Alex's Blog"
 email: your-email@example.com
 description: "Thoughts on automation, AI systems, and building cool things."
-baseurl: ""
-url: "https://ConjureGanja.github.io"
+baseurl: "/conjured-blog"
+url: "https://conjureganja.github.io"
 github_username: ConjureGanja
 author: "Alex"
 
