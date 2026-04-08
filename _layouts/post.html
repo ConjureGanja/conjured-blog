@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<article class="rs-panel" itemscope itemtype="https://schema.org/BlogPosting">
-
-  <!-- Post header -->
+<article class="content-panel" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
+    <a href="{{ '/' | relative_url }}" class="back-link">Back to archive</a>
 
-    <a href="{{ '/' | relative_url }}" class="back-link">Back to Journal</a>
-
+    <p class="section-kicker">Post transmission</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 
     <div class="post-meta-row">
@@ -34,31 +32,23 @@ layout: default
       </div>
       {%- endif -%}
     </div>
-
   </header>
 
-  <!-- Post body -->
   <div class="post-body" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <!-- Post footer navigation -->
-  <footer style="padding: 0 var(--pad) var(--pad); border-top: 1px solid var(--rs-brown-dark); padding-top: 1rem; margin-top: 0.5rem;">
-    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:0.5rem;">
+  <footer class="post-pagination">
       {%- if page.previous.url -%}
-      <a href="{{ page.previous.url | relative_url }}" class="rs-btn" style="max-width:48%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+      <a href="{{ page.previous.url | relative_url }}" class="retro-button">
         &#9664; {{ page.previous.title | truncate: 40 }}
       </a>
-      {%- else -%}
-      <span></span>
       {%- endif -%}
 
       {%- if page.next.url -%}
-      <a href="{{ page.next.url | relative_url }}" class="rs-btn" style="max-width:48%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:right;">
+      <a href="{{ page.next.url | relative_url }}" class="retro-button">
         {{ page.next.title | truncate: 40 }} &#9654;
       </a>
       {%- endif -%}
-    </div>
   </footer>
-
 </article>
