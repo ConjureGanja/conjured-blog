@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Ashes to Ashes: How the MMO Community's Last Great Hope Died in 52 Days"
 date: 2026-02-01
 author: Alex
@@ -6,8 +7,6 @@ tags: [gaming, mmo, ashes-of-creation, industry-news, controversy]
 description: "The stunning collapse of Ashes of Creation—from Steam Early Access launch to total studio shutdown in just 52 days. An investigation into what went wrong."
 image: /assets/images/ashes-of-creation-collapse.jpg
 ---
-
-# Ashes to Ashes: How the MMO Community's Last Great Hope Died in 52 Days
 
 **The stunning collapse of Intrepid Studios and the death of the most anticipated MMO in a decade.**
 

@@ -1,37 +1,26 @@
 <footer class="site-footer" role="contentinfo">
   <div class="site-wrapper">
-
-    <!-- OSRS-style chatbox footer -->
-    <div class="rs-chatbox">
-      <div class="chatbox-header">
-        <span>◆ Chat</span>
-        <div class="chatbox-tabs">
-          <span class="active-tab">Public</span>
-          <span>Friends</span>
-          <span>Clan</span>
-          <span>Trade</span>
-        </div>
+    <div class="footer-console">
+      <div>
+        <p class="footer-title">Transmission open</p>
+        <p class="footer-copy">
+          Writing about games, bots, AI systems, and whatever side quest is taking over the lab this week.
+        </p>
       </div>
-      <div class="chatbox-content">
 
-        <div class="chat-line">
-          <span class="chat-name">{{ site.author | default: site.title }}:</span>
-          Welcome, adventurer! This blog covers gaming, AI systems, and whatever I&rsquo;m building next.
-          <span class="rs-cursor" aria-hidden="true"></span>
-        </div>
-
-        <div class="chat-line">
-          <span class="chat-name-blue">System:</span>
-          &copy; {{ site.time | date: '%Y' }} {{ site.author | default: site.title }}
-          &nbsp;&mdash;&nbsp; Built with
-          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-          {%- if site.github_username %} &nbsp;&mdash;&nbsp;
-          <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      <div>
+        <div class="footer-links">
+          <a href="{{ '/' | relative_url }}" class="nav-tab">Archive</a>
+          <a href="{{ '/about/' | relative_url }}" class="nav-tab">About</a>
+          {%- if site.github_username -%}
+          <a href="https://github.com/{{ site.github_username }}" class="nav-tab" target="_blank" rel="noopener">GitHub</a>
           {%- endif -%}
         </div>
-
+        <p class="footer-meta">
+          &copy; {{ site.time | date: '%Y' }} {{ site.author | default: site.title }} · Built with
+          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+        </p>
       </div>
     </div>
-
   </div>
 </footer>

@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<div class="rs-panel">
+<section class="content-panel">
+  <header class="page-header">
+    <p class="section-kicker">Profile</p>
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+  </header>
 
-  <div class="panel-title-bar">{{ page.title | escape }}</div>
-
-  <div class="panel-body">
-
-    <div class="post-body">
-      {{ content }}
-    </div>
-
+  <div class="post-body">
+    {{ content }}
   </div>
-
-</div>
+</section>
